@@ -29,7 +29,7 @@ function getword(rexp){
     if (!re.test(words[j])){
       let sol = words[j].toUpperCase();
 
-      return words[j]
+      return sol
     }
   }
   return null
