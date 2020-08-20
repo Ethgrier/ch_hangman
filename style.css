@@ -9,6 +9,7 @@ span:hover{
   color: blue;
   text-decoration: underline;
   font-weight: bold;
+  cursor: pointer;
 }
 #guesses {
   font-size: 200%;
@@ -32,4 +33,8 @@ font-family: monospace, monospace;
   color: red;
   text-decoration: underline;
   font-weight: bold;
+  cursor: pointer;
+}
+#keyboard{
+  user-select: none;
 }
