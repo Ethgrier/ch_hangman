@@ -1,0 +1,35 @@
+div {
+  margin-top: 30px;
+}
+span{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+span:hover{
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#guesses {
+  font-size: 200%;
+  letter-spacing: 5px;
+  border-style: none none solid none;
+}
+body{
+font-family: monospace, monospace;
+}
+.container{
+  margin-top: 10%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+#solution{
+  font-size: 300%;
+}
+.retry:hover{
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
+}
